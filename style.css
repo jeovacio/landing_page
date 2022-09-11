@@ -7,118 +7,111 @@
     text-decoration: none;
 }
 
-body {
-    background-image: url(god-of-war-03.jpg);
-    background-repeat: no-repeat;
+header {
+    background-image: url(god-of-war-03.jpg) ;
     background-size: cover;
-    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    height: 650px;
 }
-
 
 .cabecalho {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    padding: 20px;
 }
 
-.cabecalho-imagem {
-    height: 100px;
+.titulo {
+    font-family: 'Caesar Dressing', cursive;
+    font-weight: 600;
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+    text-shadow: -5px 0 black, 0 1px black, 1px 0 black, 0 -5px black
 }
 
-.cabecalho-menu {
+.botao {
     display: flex;
-    gap: 20px;
-    padding-left: 400px;
-}
-
-.cabecalho-menu-item {
-    font-family: 'Silkscreen', cursive;
-    font-weight: 500;
-    font-size: 18px;
-    color: red;
+    justify-content: center;
+    position: relative;
+    padding: 8px 10px;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0);
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
 }
 
 .conteudo {
-    margin-bottom: 80px;
-    border-top: 2px solid #ffff;
+    background-image: url(fundo-02-gow.jpg);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 650px;
 }
 
 .conteudo-principal {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.conteudo-principal-escrito {
-    display: flex;
     flex-direction: column;
-    gap: 10px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 20px;;
+    margin-bottom: 10px;
 }
 
-.conteudo-principal-escrito-titulo {
-    font-family: 'Caesar Dressing', cursive;
-    font-weight: 400;
-    font-size: 100px;
-    color: rgb(255, 0, 0);
+iframe {
+    margin-top: 20px;
 }
 
-.conteudo-principal-escrito-subtitulo {
+.conteudo-principal-subtitulo {
     font-family: 'Caesar Dressing', cursive;
     font-weight: 400;
     font-size: 40px;
-    color: red;
-}
+    color: white;
 
-.conteudo-principal-escrito-botao {
-    background-color: rgb(255, 0, 0);
-    width: 150px;
-    height: 50px;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0);
-    border-radius: 200px;
-    font-family: 'Caesar Dressing', cursive;
-    font-weight: 400;
-    font-size: 25px;
-    color: azure;
-}
-
-.conteudo-principal-video {
-    height: 400px;
-    margin-top: 10px;
+    text-shadow: -5px 0 black, 0 1px black, 1px 0 black, 0 -5px black
 }
 
 .conteudo-secundario {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
-    gap: 20px;
-    margin-top: 50px;
+    text-align: center;
+    gap: 30px;
 }
 
-.conteudo-secundario-titulo {
+.conteudo-secundario-subtitulo {
     border-top: 1.5px solid azure;
-    padding-top: 4px;
     font-family: 'Caesar Dressing', cursive;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 40px;
+    margin-top: 30px;
     color: azure;
+    position: static;
+
+    text-shadow: -5px 0 black, 0 1px black, 1px 0 black, 0 -5px black
 }
 
 .conteudo-secundario-paragrafo {
+    text-align: center;
     font-family: 'Caesar Dressing', cursive;
     font-weight: 300;
     font-size: 20px;
-    color: azure;
-    display: block;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 15px;  
+    color: azure;  text-shadow: black 0.1em 0.1em 0.2em
+
 }
 
 .rodape {
-    padding: 12px;
-    border-top: 1.5px solid azure;
+    padding: 20px;
 }
 
 footer{
